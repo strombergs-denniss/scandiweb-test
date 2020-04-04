@@ -10,7 +10,7 @@
 ## Dependencies
 * Composer
 ## Usage
-1. `git clone https://bitbucket.org/strombergs-denniss/scandiweb-test.git` or download the repository
+1. `git clone https://github.com/strombergs-denniss/scandiweb-test.git` or download the repository
 2. `cd scandiweb-test`
 3. `composer update`
 4. start mysql host
