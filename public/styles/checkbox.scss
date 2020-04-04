@@ -1,0 +1,21 @@
+.checkbox {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    padding: 4px;
+    margin-right: 8px;
+
+    &:hover {
+        background-color: rgb(224, 224, 224);
+    }
+
+    & > .icon {
+        visibility: hidden;
+        padding: 0px;
+    }
+
+    &.active > .icon {
+        visibility: visible;
+    }
+}

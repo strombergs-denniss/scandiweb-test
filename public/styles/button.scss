@@ -1,0 +1,14 @@
+.button {
+    padding: 4px 8px;
+
+    &:hover {
+        background-color: rgb(224, 224, 224);
+    }
+
+    &--outline {
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
+        border-radius: 4px;
+    }
+}

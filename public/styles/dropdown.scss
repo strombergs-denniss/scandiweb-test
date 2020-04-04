@@ -1,0 +1,39 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    &--right {
+        .dropdown__menu {
+            left: 0px;
+        }
+    }
+
+    &__menu {
+        display: none;
+        position: absolute;
+        right: 0px;
+        min-width: 160px;
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 4px;
+    }
+
+    &__menu-item {
+        display: block;
+        padding: 4px 8px;
+        width: 100%;
+        text-align: left;
+
+        &:hover {
+            background-color: rgb(224, 224, 224);
+        }
+    }
+
+    &.active {
+        .dropdown__menu {
+            display: block;
+            z-index: 100;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.modal {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px 0px;
+    z-index: 200;
+
+    &.active {
+        display: flex;
+    }
+
+    &__dialog {
+        background-color: rgb(255, 255, 255);
+        min-width: 75%;
+        border-radius: 4px;
+    }
+
+    &__head {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+    }
+
+    &__title {
+        flex-grow: 1;
+        margin: 0px;
+    }
+
+    &__body {
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-width: 1px;
+        padding: 16px;
+    }
+
+    &__foot {
+        padding: 16px;
+    }
+}

@@ -1,0 +1,31 @@
+.form {
+    margin-bottom: 1rem;
+
+    &__control {
+        padding: 4px;
+        border-radius: 4px;
+    }
+
+    &__group {
+        margin-bottom: 16px;
+
+        &--inline {
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+    }
+
+    &__feedback {
+        color: rgb(255, 0, 0);
+        font-size: 0.75rem;
+        display: none;
+
+        &.active {
+        }
+    }
+}
+
+.form.form--validated .form__control:invalid + .form__feedback {
+    display: block;
+}

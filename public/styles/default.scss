@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    line-height: 1.5;
+    font-family: Montserrat;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+figure {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+
+button {
+    line-height: 1.5;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:focus {
+    outline-style: none;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    font-family: inherit;
+    font-size: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+select {
+    height: 34px;
+}
+
+label {
+    display: inline-block;
+}
+
+fieldset {
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+}
